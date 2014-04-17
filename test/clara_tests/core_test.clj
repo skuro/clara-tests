@@ -30,7 +30,7 @@
       (is (= #{bean2}
              (into #{} (query session result)))))))
 
-;; FAIL in (pojo-test) (core_test.clj:29)
+;; FAIL in (pojo-test) (core_test.clj:30)
 ;; Clara rule and query over POJOs
 ;; expected: (= #{bean2} (into #{} (query session result)))
 ;;   actual: (not (= #{#<Bean tk.skuro.Bean@42bbc556>} #{{}}))
